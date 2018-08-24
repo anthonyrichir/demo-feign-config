@@ -19,6 +19,9 @@ jhipster:
     registry:
         password: changeme
 spring:
+    security:
+        user:
+            password: changemeaswell
     zipkin:
         base-url: http://jhipster-zipkin:9411
         enabled: true
